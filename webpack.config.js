@@ -18,8 +18,8 @@ module.exports = {
     new ModuleFederationPluging({
       name: 'container',
       remotes: {
-        products: ID_DEV ? 'products@http://localhost:8081/remoteEntry.js' : 'products@https://robzarel.github.io/mf-products/remoteEntry.js',
-        cart: ID_DEV ? 'cart@http://localhost:8082/remoteEntry.js' : 'cart@https://robzarel.github.io/mf-cart/remoteEntry.js',
+        products: ID_DEV ? 'products@http://localhost:8081/remoteEntry.js' : 'products@https://robzarel.github.io/mf-products/static/remoteEntry.js',
+        cart: ID_DEV ? 'cart@http://localhost:8082/remoteEntry.js' : 'cart@https://robzarel.github.io/mf-cart/static/remoteEntry.js',
       },
     }),  
     new HtmlWebpackPlugin({
