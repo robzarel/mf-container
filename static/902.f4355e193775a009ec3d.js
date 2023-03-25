@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmf_container=self.webpackChunkmf_container||[]).push([[902],{902:(e,n,t)=>{t.r(n);var o=t(246),c=t(440);(0,o.mount)(document.getElementById("my-products")),(0,c.mount)(document.getElementById("my-cart")),console.log("Container !")}}]);
